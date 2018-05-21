@@ -47,6 +47,7 @@
 - (void)commonInit {
     self.backgroundColor = [UIColor redColor];
     self.clipsToBounds = YES; // 当设置为YES，内容和子视图被剪切到视图的边界。
+    
     _containerView = [[UIView alloc] init];
     _containerView.backgroundColor = [UIColor clearColor];
     [self addSubview:_containerView];

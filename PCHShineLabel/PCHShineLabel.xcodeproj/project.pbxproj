@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743A775F20B17DAA00371CBF /* PCHShinelabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 743A775E20B17DAA00371CBF /* PCHShinelabel.m */; };
 		744F20E920B07F5E00340135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F20E820B07F5E00340135 /* AppDelegate.m */; };
 		744F20EC20B07F5E00340135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744F20EB20B07F5E00340135 /* ViewController.m */; };
 		744F20EF20B07F5E00340135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744F20ED20B07F5E00340135 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		743A775D20B17DAA00371CBF /* PCHShinelabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCHShinelabel.h; sourceTree = "<group>"; };
+		743A775E20B17DAA00371CBF /* PCHShinelabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCHShinelabel.m; sourceTree = "<group>"; };
 		744F20E420B07F5E00340135 /* PCHShineLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCHShineLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744F20E720B07F5E00340135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		744F20E820B07F5E00340135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		743A775C20B17D8800371CBF /* PCHShineLabel */ = {
+			isa = PBXGroup;
+			children = (
+				743A775D20B17DAA00371CBF /* PCHShinelabel.h */,
+				743A775E20B17DAA00371CBF /* PCHShinelabel.m */,
+			);
+			path = PCHShineLabel;
+			sourceTree = "<group>";
+		};
 		744F20DB20B07F5E00340135 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +113,7 @@
 		744F20E620B07F5E00340135 /* PCHShineLabel */ = {
 			isa = PBXGroup;
 			children = (
+				743A775C20B17D8800371CBF /* PCHShineLabel */,
 				744F20E720B07F5E00340135 /* AppDelegate.h */,
 				744F20E820B07F5E00340135 /* AppDelegate.m */,
 				744F20EA20B07F5E00340135 /* ViewController.h */,
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743A775F20B17DAA00371CBF /* PCHShinelabel.m in Sources */,
 				744F20EC20B07F5E00340135 /* ViewController.m in Sources */,
 				744F20F720B07F6000340135 /* main.m in Sources */,
 				744F20E920B07F5E00340135 /* AppDelegate.m in Sources */,
